@@ -123,8 +123,5 @@
   <ItemGroup>
     <Resource Include="img\question-icon.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="img\loading.gif" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

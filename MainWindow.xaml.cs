@@ -184,7 +184,7 @@ namespace Rename_File_Or_Foder
                 lblSoLuong.Text = this.stringSoLuong(listItems.Count);
                 MessageBox.Show("Thành Công " + this.stringSoLuong(listItems.Count) + "!");
             }
-            catch (Exception ex)
+            catch
             {
                 MessageBox.Show("Không có gì để load cả");
             }

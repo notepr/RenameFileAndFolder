@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Rename_File_Or_Foder"
         mc:Ignorable="d"
-        Title="Rename File Or Foder" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Closed="Window_Closed"
+        Title="Rename File Or Foder" Height="500" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Closed="Window_Closed"
         >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="199*"/>
         </Grid.ColumnDefinitions>
-        <ListView Margin="10,10,10,153" Name="listData" Grid.ColumnSpan="2" GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler">
+        <ListView Margin="10,10,10,153" Name="listData" GridViewColumnHeader.Click="GridViewColumnHeaderClickedHandler">
             <ListView.View>
                 <GridView>
                     <GridViewColumn>
@@ -73,9 +73,9 @@
                         <TextBlock HorizontalAlignment="Left" Margin="223,8,0,0" Width="61" Text="Số Bắt Đầu" VerticalAlignment="Top"/>
                         <TextBox x:Name="txtNumber" HorizontalAlignment="Left" Text="1" Height="23" Margin="284,5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" PreviewTextInput="NumberValidationTextBox"/>
                         <Button x:Name="btnExportNow" Content="Xuất Dữ Liệu" HorizontalAlignment="Left" Margin="10,71,0,0" VerticalAlignment="Top" Width="78" Click="BtnExportNow_Click"/>
-                        <Button x:Name="btnPreview" Content="Xem Trước" HorizontalAlignment="Left" Margin="100,71,0,0" VerticalAlignment="Top" Width="65" Click="BtnPreview_Click"/>
-                        <Button x:Name="btnInExcel" Content="Nhập File" HorizontalAlignment="Left" Margin="170,71,0,0" VerticalAlignment="Top" Width="99" Click="btnInExcel_Click"/>
-                        <Button x:Name="btnChangerName" Content="Đổi Tên" HorizontalAlignment="Left" Margin="280,71,0,0" VerticalAlignment="Top" Width="60" Background="#FF4ED648" Click="BtnChangerName_Click"/>
+                        <Button x:Name="btnPreview" Content="Xem Trước" HorizontalAlignment="Left" Margin="93,71,0,0" VerticalAlignment="Top" Width="65" Click="BtnPreview_Click"/>
+                        <Button x:Name="btnInExcel" Content="Nhập File Định Dạng" HorizontalAlignment="Left" Margin="163,71,0,0" VerticalAlignment="Top" Width="116" Click="btnInExcel_Click"/>
+                        <Button x:Name="btnChangerName" Content="Đổi Tên" HorizontalAlignment="Left" Margin="284,71,0,0" VerticalAlignment="Top" Width="60" Background="#FF4ED648" Click="BtnChangerName_Click"/>
                         <TextBlock HorizontalAlignment="Left" Margin="100,98,0,-1" TextWrapping="Wrap" Text="Facebook :" VerticalAlignment="Top" Width="50" FontSize="10" FontWeight="Bold"/>
                         <TextBlock Margin="155,96,4,0">           
                             <Hyperlink NavigateUri="https://www.facebook.com/notepr/" RequestNavigate="Hyperlink_RequestNavigate">
