@@ -1,0 +1,13 @@
+﻿<Window x:Class="Rename_File_Or_Foder.Running"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rename_File_Or_Foder"
+        mc:Ignorable="d"
+        Title="Xin chờ ! " SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize" Height="122.222" Width="240">
+    <Grid Margin="5" Width="200">
+        <TextBox TextAlignment="Center">Đang xử lý .....................</TextBox>
+    </Grid>
+</Window>

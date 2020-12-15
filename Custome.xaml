@@ -1,0 +1,32 @@
+﻿<Window x:Class="Rename_File_Or_Foder.Custome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rename_File_Or_Foder"
+        mc:Ignorable="d"
+        Title="Chọn đường dẫn để xuất file" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid Margin="15" Width="369">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Image Source="/img/question-icon.png" Width="32" Height="32" Grid.RowSpan="2" Margin="20,0" />
+
+        <Label Name="lblQuestion" Grid.Column="1">Đường Dẫn</Label>
+        <TextBox Name="txtAnswer" Grid.Column="1" Grid.Row="1" MinWidth="200" Margin="0,0,97,0"></TextBox>
+        <Button x:Name="btnLoadPath" FontWeight="Bold" Margin="205,0,0,0" Grid.Row="1" Grid.Column="1" Click="BtnLoadPath_Click" HorizontalAlignment="Left" Width="82">Lấy Thư Mục</Button>
+
+        <WrapPanel Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="0,15,0,0">
+            <Button IsDefault="True" Name="btnDialogOk" MinWidth="60" Margin="0,0,10,0" Click="BtnDialogOk_Click">Ok</Button>
+            <Button IsCancel="True" MinWidth="60">Cancel</Button>
+        </WrapPanel>
+    </Grid>
+</Window>

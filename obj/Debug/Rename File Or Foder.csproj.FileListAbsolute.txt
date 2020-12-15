@@ -1,0 +1,65 @@
+I:\telegram\Tool\Rename File Or Foder\bin\Debug\Rename File Or Foder.exe.config
+I:\telegram\Tool\Rename File Or Foder\bin\Debug\Rename File Or Foder.exe
+I:\telegram\Tool\Rename File Or Foder\bin\Debug\Rename File Or Foder.pdb
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.csprojAssemblyReference.cache
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\MainWindow.g.cs
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\App.g.cs
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder_MarkupCompile.cache
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder_MarkupCompile.lref
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\MainWindow.baml
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.g.resources
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Rename_File_Or_Foder.Properties.Resources.resources
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.csproj.GenerateResource.cache
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.csproj.CoreCompileInputs.cache
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.exe
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.pdb
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\bin\Debug\Rename File Or Foder.exe.config
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\bin\Debug\Rename File Or Foder.exe
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\bin\Debug\Rename File Or Foder.pdb
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.csprojAssemblyReference.cache
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\MainWindow.g.cs
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\App.g.cs
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder_MarkupCompile.cache
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder_MarkupCompile.lref
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\MainWindow.baml
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.g.resources
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Rename_File_Or_Foder.Properties.Resources.resources
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.csproj.GenerateResource.cache
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.exe
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.pdb
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Custome.g.cs
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Custome.baml
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Running.g.cs
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Running.baml
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\bin\Debug\WpfAnimatedGif.dll
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\bin\Debug\WpfAnimatedGif.pdb
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\bin\Debug\WpfAnimatedGif.xml
+C:\xampp\htdocs\github\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.csproj.CopyComplete
+I:\telegram\Tool\Rename File Or Foder\bin\Debug\WpfAnimatedGif.dll
+I:\telegram\Tool\Rename File Or Foder\bin\Debug\WpfAnimatedGif.pdb
+I:\telegram\Tool\Rename File Or Foder\bin\Debug\WpfAnimatedGif.xml
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Custome.g.cs
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Running.g.cs
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Custome.baml
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Running.baml
+I:\telegram\Tool\Rename File Or Foder\obj\Debug\Rename File Or Foder.csproj.CopyComplete
+C:\xampp\htdocs\github\RenameFileAndFoder\bin\Debug\Rename File Or Foder.exe.config
+C:\xampp\htdocs\github\RenameFileAndFoder\bin\Debug\Rename File Or Foder.exe
+C:\xampp\htdocs\github\RenameFileAndFoder\bin\Debug\Rename File Or Foder.pdb
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Rename File Or Foder.csprojAssemblyReference.cache
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Custome.g.cs
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\MainWindow.g.cs
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Running.g.cs
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\App.g.cs
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Rename File Or Foder_MarkupCompile.cache
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Rename File Or Foder_MarkupCompile.lref
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Custome.baml
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\MainWindow.baml
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Running.baml
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Rename File Or Foder.g.resources
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Rename_File_Or_Foder.Properties.Resources.resources
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Rename File Or Foder.csproj.GenerateResource.cache
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Rename File Or Foder.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Rename File Or Foder.exe
+C:\xampp\htdocs\github\RenameFileAndFoder\obj\Debug\Rename File Or Foder.pdb
