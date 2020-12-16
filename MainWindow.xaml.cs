@@ -26,6 +26,7 @@ using Application = System.Windows.Application;
 using ListView = System.Windows.Controls.ListView;
 using MessageBox = System.Windows.Forms.MessageBox;
 using OpenFileDialog = Microsoft.Win32.OpenFileDialog;
+using Properties = Rename_File_Or_Folder.Properties;
 
 namespace Rename_File_Or_Foder
 {
@@ -440,6 +441,7 @@ namespace Rename_File_Or_Foder
                 return;
             }
             this.running.Show();
+            Splash.Visibility = Visibility.Visible;
             this.pathExport = custome.Answer;
             int num = 0;
             string path = this.pathExport + @"\export.xlsx";
@@ -464,7 +466,10 @@ namespace Rename_File_Or_Foder
                 this.running.Hide();
                 System.Windows.MessageBox.Show(System.Windows.Application.Current.MainWindow, "Xuất file thất bại", "Thông báo !", System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Warning);
             }
-
+            finally
+            {
+                Splash.Visibility = Visibility.Collapsed;
+            }
         }
         private void btnInExcel_Click(object sender, RoutedEventArgs e)
         {
