@@ -135,7 +135,7 @@ namespace Rename_File_Or_Foder
             }
             else
             {
-                rt += " Foder";
+                rt += " Folder";
             }
             return rt;
         }
@@ -426,6 +426,7 @@ namespace Rename_File_Or_Foder
         {
             Properties.Settings.Default.pathExport = this.pathExport;
             Properties.Settings.Default.Save();
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
 
         private void BtnExportNow_Click(object sender, RoutedEventArgs e)

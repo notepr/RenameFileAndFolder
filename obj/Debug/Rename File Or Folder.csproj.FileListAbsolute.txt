@@ -1,0 +1,18 @@
+I:\telegram\RenameFileAndFoder\bin\Debug\Rename File Or Foder.exe.config
+I:\telegram\RenameFileAndFoder\bin\Debug\Rename File Or Foder.exe
+I:\telegram\RenameFileAndFoder\bin\Debug\Rename File Or Foder.pdb
+I:\telegram\RenameFileAndFoder\obj\Debug\Custome.g.cs
+I:\telegram\RenameFileAndFoder\obj\Debug\MainWindow.g.cs
+I:\telegram\RenameFileAndFoder\obj\Debug\Running.g.cs
+I:\telegram\RenameFileAndFoder\obj\Debug\App.g.cs
+I:\telegram\RenameFileAndFoder\obj\Debug\Rename File Or Foder_MarkupCompile.cache
+I:\telegram\RenameFileAndFoder\obj\Debug\Rename File Or Foder_MarkupCompile.lref
+I:\telegram\RenameFileAndFoder\obj\Debug\Custome.baml
+I:\telegram\RenameFileAndFoder\obj\Debug\MainWindow.baml
+I:\telegram\RenameFileAndFoder\obj\Debug\Running.baml
+I:\telegram\RenameFileAndFoder\obj\Debug\Rename File Or Foder.g.resources
+I:\telegram\RenameFileAndFoder\obj\Debug\Rename_File_Or_Foder.Properties.Resources.resources
+I:\telegram\RenameFileAndFoder\obj\Debug\Rename File Or Folder.csproj.GenerateResource.cache
+I:\telegram\RenameFileAndFoder\obj\Debug\Rename File Or Folder.csproj.CoreCompileInputs.cache
+I:\telegram\RenameFileAndFoder\obj\Debug\Rename File Or Foder.exe
+I:\telegram\RenameFileAndFoder\obj\Debug\Rename File Or Foder.pdb
