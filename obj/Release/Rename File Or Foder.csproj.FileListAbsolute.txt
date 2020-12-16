@@ -47,3 +47,22 @@ C:\xampp\htdocs\github\RenameFileAndFoder\obj\Release\Rename File Or Foder.cspro
 C:\xampp\htdocs\github\RenameFileAndFoder\obj\Release\Rename File Or Foder.csproj.CoreCompileInputs.cache
 C:\xampp\htdocs\github\RenameFileAndFoder\obj\Release\Rename File Or Foder.exe
 C:\xampp\htdocs\github\RenameFileAndFoder\obj\Release\Rename File Or Foder.pdb
+I:\telegram\RenameFileAndFoder\bin\Release\Rename File Or Foder.exe.config
+I:\telegram\RenameFileAndFoder\bin\Release\Rename File Or Foder.exe
+I:\telegram\RenameFileAndFoder\bin\Release\Rename File Or Foder.pdb
+I:\telegram\RenameFileAndFoder\obj\Release\Rename File Or Foder.csprojAssemblyReference.cache
+I:\telegram\RenameFileAndFoder\obj\Release\Custome.g.cs
+I:\telegram\RenameFileAndFoder\obj\Release\MainWindow.g.cs
+I:\telegram\RenameFileAndFoder\obj\Release\Running.g.cs
+I:\telegram\RenameFileAndFoder\obj\Release\App.g.cs
+I:\telegram\RenameFileAndFoder\obj\Release\Rename File Or Foder_MarkupCompile.cache
+I:\telegram\RenameFileAndFoder\obj\Release\Rename File Or Foder_MarkupCompile.lref
+I:\telegram\RenameFileAndFoder\obj\Release\Custome.baml
+I:\telegram\RenameFileAndFoder\obj\Release\MainWindow.baml
+I:\telegram\RenameFileAndFoder\obj\Release\Running.baml
+I:\telegram\RenameFileAndFoder\obj\Release\Rename File Or Foder.g.resources
+I:\telegram\RenameFileAndFoder\obj\Release\Rename_File_Or_Foder.Properties.Resources.resources
+I:\telegram\RenameFileAndFoder\obj\Release\Rename File Or Foder.csproj.GenerateResource.cache
+I:\telegram\RenameFileAndFoder\obj\Release\Rename File Or Foder.csproj.CoreCompileInputs.cache
+I:\telegram\RenameFileAndFoder\obj\Release\Rename File Or Foder.exe
+I:\telegram\RenameFileAndFoder\obj\Release\Rename File Or Foder.pdb
