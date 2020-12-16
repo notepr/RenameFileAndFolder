@@ -22,7 +22,7 @@ Ghi tất cả những gì hiện có ở trình xử lý ra file Excel
  - Tối thiểu cần 'Path' và 'NewFileName'
  - Mẫu như ảnh,hoặc tải file mẫu để xem
 ```
-![alt text]()
+![alt text](https://github.com/notepr/RenameFileAndFoder/blob/main/img/mau.PNG?raw=true)
 ## Đóng góp
 
 
