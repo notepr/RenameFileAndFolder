@@ -16,3 +16,23 @@ I:\telegram\RenameFileAndFoder\obj\Debug\Rename File Or Folder.csproj.GenerateRe
 I:\telegram\RenameFileAndFoder\obj\Debug\Rename File Or Folder.csproj.CoreCompileInputs.cache
 I:\telegram\RenameFileAndFoder\obj\Debug\Rename File Or Foder.exe
 I:\telegram\RenameFileAndFoder\obj\Debug\Rename File Or Foder.pdb
+I:\Github\RenameFileAndFolder\bin\Debug\Rename File Or Folder.exe.config
+I:\Github\RenameFileAndFolder\bin\Debug\Rename File Or Folder.exe
+I:\Github\RenameFileAndFolder\bin\Debug\Rename File Or Folder.pdb
+I:\Github\RenameFileAndFolder\obj\Debug\Rename File Or Folder.csproj.AssemblyReference.cache
+I:\Github\RenameFileAndFolder\obj\Debug\Rename File Or Folder.csproj.SuggestedBindingRedirects.cache
+I:\Github\RenameFileAndFolder\obj\Debug\Custome.g.cs
+I:\Github\RenameFileAndFolder\obj\Debug\MainWindow.g.cs
+I:\Github\RenameFileAndFolder\obj\Debug\Running.g.cs
+I:\Github\RenameFileAndFolder\obj\Debug\App.g.cs
+I:\Github\RenameFileAndFolder\obj\Debug\Rename File Or Folder_MarkupCompile.cache
+I:\Github\RenameFileAndFolder\obj\Debug\Rename File Or Folder_MarkupCompile.lref
+I:\Github\RenameFileAndFolder\obj\Debug\Custome.baml
+I:\Github\RenameFileAndFolder\obj\Debug\MainWindow.baml
+I:\Github\RenameFileAndFolder\obj\Debug\Running.baml
+I:\Github\RenameFileAndFolder\obj\Debug\Rename File Or Folder.g.resources
+I:\Github\RenameFileAndFolder\obj\Debug\Rename_File_Or_Folder.Properties.Resources.resources
+I:\Github\RenameFileAndFolder\obj\Debug\Rename File Or Folder.csproj.GenerateResource.cache
+I:\Github\RenameFileAndFolder\obj\Debug\Rename File Or Folder.csproj.CoreCompileInputs.cache
+I:\Github\RenameFileAndFolder\obj\Debug\Rename File Or Folder.exe
+I:\Github\RenameFileAndFolder\obj\Debug\Rename File Or Folder.pdb

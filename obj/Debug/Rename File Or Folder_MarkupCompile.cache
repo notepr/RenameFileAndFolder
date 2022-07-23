@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-I:\Github\RenameFileAndFolder\obj\Release\
+I:\Github\RenameFileAndFolder\obj\Debug\
 Rename_File_Or_Folder
 none
 false
-TRACE
+DEBUG;TRACE
 I:\Github\RenameFileAndFolder\App.xaml
 3-2111303030
 

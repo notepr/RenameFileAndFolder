@@ -17,3 +17,23 @@ I:\telegram\RenameFileAndFoder\obj\Release\Rename File Or Folder.g.resources
 I:\telegram\RenameFileAndFoder\obj\Release\Rename_File_Or_Folder.Properties.Resources.resources
 I:\telegram\RenameFileAndFoder\obj\Release\Rename File Or Folder.exe
 I:\telegram\RenameFileAndFoder\obj\Release\Rename File Or Folder.pdb
+I:\Github\RenameFileAndFolder\bin\Release\Rename File Or Folder.exe.config
+I:\Github\RenameFileAndFolder\bin\Release\Rename File Or Folder.exe
+I:\Github\RenameFileAndFolder\bin\Release\Rename File Or Folder.pdb
+I:\Github\RenameFileAndFolder\obj\Release\Rename File Or Folder.csproj.AssemblyReference.cache
+I:\Github\RenameFileAndFolder\obj\Release\Rename File Or Folder.csproj.SuggestedBindingRedirects.cache
+I:\Github\RenameFileAndFolder\obj\Release\Custome.g.cs
+I:\Github\RenameFileAndFolder\obj\Release\MainWindow.g.cs
+I:\Github\RenameFileAndFolder\obj\Release\Running.g.cs
+I:\Github\RenameFileAndFolder\obj\Release\App.g.cs
+I:\Github\RenameFileAndFolder\obj\Release\Rename File Or Folder_MarkupCompile.cache
+I:\Github\RenameFileAndFolder\obj\Release\Rename File Or Folder_MarkupCompile.lref
+I:\Github\RenameFileAndFolder\obj\Release\Custome.baml
+I:\Github\RenameFileAndFolder\obj\Release\MainWindow.baml
+I:\Github\RenameFileAndFolder\obj\Release\Running.baml
+I:\Github\RenameFileAndFolder\obj\Release\Rename File Or Folder.g.resources
+I:\Github\RenameFileAndFolder\obj\Release\Rename_File_Or_Folder.Properties.Resources.resources
+I:\Github\RenameFileAndFolder\obj\Release\Rename File Or Folder.csproj.GenerateResource.cache
+I:\Github\RenameFileAndFolder\obj\Release\Rename File Or Folder.csproj.CoreCompileInputs.cache
+I:\Github\RenameFileAndFolder\obj\Release\Rename File Or Folder.exe
+I:\Github\RenameFileAndFolder\obj\Release\Rename File Or Folder.pdb

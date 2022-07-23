@@ -178,8 +178,9 @@ namespace Rename_File_Or_Foder
                 foreach (string fileName in path)
                 {
                     DateTime dateTime = System.IO.File.GetLastWriteTime(fileName);
+                    DateTime dateCreate = System.IO.File.GetCreationTime(fileName);
                     string[] pathSplit = fileName.Split('\\');
-                    this.listItems.Add(new ListLoad() { Select = true, Path = fileName, FileName = pathSplit.Last(), DateModified = dateTime });
+                    this.listItems.Add(new ListLoad() { Select = true, Path = fileName, FileName = pathSplit.Last(), DateModified = dateTime, DateCreate = dateCreate });
                 }
                 listData.ItemsSource = this.listItems;
                 lblSoLuong.Text = this.stringSoLuong(listItems.Count);
@@ -435,7 +436,7 @@ namespace Rename_File_Or_Foder
             Custome custome = new Custome(this.pathExport, "Chọn đường dẫn để xuất File");
             if (custome.ShowDialog() == false)
                 return;
-            if(listData.Items.Count == 0)
+            if (listData.Items.Count == 0)
             {
                 MessageBox.Show("Không có gì để xuất cả");
                 return;
@@ -471,6 +472,104 @@ namespace Rename_File_Or_Foder
                 Splash.Visibility = Visibility.Collapsed;
             }
         }
+
+        private void btnChangerDate_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                bool isModified = (bool)chkDateModified.IsChecked;
+                bool isCreate = (bool)chkDateCreate.IsChecked;
+                if (!isCreate && !isModified)
+                {
+                    MessageBox.Show("Không có gì để đổi");
+                    return;
+                }
+                string strShow = "Bạn có chắc chắn muốn đổi ";
+                if (isModified)
+                {
+                    strShow += "DateModified ";
+                }
+                if (isCreate)
+                {
+                    strShow += "DateCreate ";
+                }
+                MessageBoxResult messageBoxResult = System.Windows.MessageBox.Show(System.Windows.Application.Current.MainWindow, strShow, "Thông báo !", System.Windows.MessageBoxButton.YesNo, System.Windows.MessageBoxImage.Question);
+
+                if (messageBoxResult == MessageBoxResult.Yes)
+                {
+                    if (listData.Items.Count <= 0)
+                    {
+                        MessageBox.Show("Không có gì để đổi.");
+                        return;
+                    }
+                    try
+                    {
+                        this.running.Show();
+                        List<ListLoad> listCache = new List<ListLoad>();
+                        foreach (ListLoad ld in this.listItems)
+                        {
+                            if (ld.Select == true)
+                            {
+                                try
+                                {
+                                    if (isCreate)
+                                    {
+                                        if (ld.DateCreate == null)
+                                        {
+                                            ld.Status = "Error";
+                                        }
+                                        else
+                                        {
+                                            File.SetCreationTime(ld.Path, ld.DateCreate);
+                                            ld.Status = "Done";
+                                        }
+                                    }
+                                    if (isModified)
+                                    {
+                                        if (ld.DateModified == null)
+                                        {
+                                            ld.Status = "Error";
+                                        }
+                                        else
+                                        {
+                                            File.SetLastWriteTime(ld.Path, ld.DateModified);
+                                            ld.Status = "Done";
+                                        }
+                                    }
+                                }
+                                catch
+                                {
+                                    ld.Status = "Error";
+                                }
+                            }
+                            else
+                            {
+                                ld.NewFileName = null;
+                            }
+                            listCache.Add(ld);
+                        }
+                        this.isLoad = false;
+                        this.listItems.Clear();
+                        this.listItems.AddRange(listCache);
+                        listData.ClearValue(ItemsControl.ItemsSourceProperty);
+                        listData.ItemsSource = this.listItems;
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
+                    finally
+                    {
+                        this.running.Hide();
+                    }
+                }
+            }
+            catch
+            {
+
+            }
+        }
+
         private void btnInExcel_Click(object sender, RoutedEventArgs e)
         {
             try

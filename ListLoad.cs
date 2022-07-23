@@ -14,7 +14,9 @@ namespace Rename_File_Or_Foder
         public string FileName { get; set; }
         public string NewFileName { get; set; }
         public string Status { get; set; }
-        public void SetValueByName(string byName,string value) {
+        public DateTime DateCreate { get; set; }
+        public void SetValueByName(string byName, string value)
+        {
             if (value is null)
                 return;
             switch (byName)
@@ -23,7 +25,6 @@ namespace Rename_File_Or_Foder
                     this.Path = value;
                     try
                     {
-                        this.DateModified = System.IO.File.GetLastWriteTime(value);
                         this.FileName = value.Split('\\').Last();
                     }
                     catch
@@ -33,7 +34,15 @@ namespace Rename_File_Or_Foder
                     }
                     break;
                 case "DateModified":
-                    //this.DateModified = DateTime.ParseExact(value, "yyyy-MM-dd HH:mm",System.Globalization.CultureInfo.InvariantCulture);
+                    try
+                    {
+                        double d = double.Parse(value);
+                        this.DateModified = DateTime.FromOADate(d);
+                    }
+                    catch
+                    {
+
+                    }
                     break;
                 case "FileName":
                     //this.FileName = value;
@@ -42,7 +51,7 @@ namespace Rename_File_Or_Foder
                     this.NewFileName = value;
                     break;
                 case "Status":
-                    if(this.Status is null)
+                    if (this.Status is null)
                     {
                         //nothing!!!!!!
                     }
@@ -53,6 +62,17 @@ namespace Rename_File_Or_Foder
                     break;
                 case "Select":
                     this.Select = Convert.ToBoolean(value);
+                    break;
+                case "DateCreate":
+                    try
+                    {
+                        double d = double.Parse(value);
+                        this.DateCreate = DateTime.FromOADate(d);
+                    }
+                    catch( Exception ex)
+                    {
+                        Console.WriteLine(value);
+                    }
                     break;
             }
         }

@@ -74,7 +74,6 @@ namespace Rename_File_Or_Foder
             }
             //ListLoad listLoad = new ListLoad();
             //listLoad.SetValueByName("Path", "dsvcsvdgcsd");
-            //Console.WriteLine(listLoad);
             List<ListLoad> list = new List<ListLoad>();
             for (int rCnt = 2; rCnt <= rw; rCnt++)
             {
@@ -89,6 +88,7 @@ namespace Rename_File_Or_Foder
                     {
                         str = null;
                     }
+                    Console.WriteLine(str);
                     listLoad.SetValueByName(header[cCnt - 1], str);
                 }
                 list.Add(listLoad);
